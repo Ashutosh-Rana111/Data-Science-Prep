@@ -4,6 +4,7 @@ import numpy as np
 import joblib
 import sys
 
+model_path = os.path.join(os.path.dirname(__file__), "Heart_disease_model.pkl")
 # Load trained model
 model = joblib.load("Heart_disease_model.pkl")
 
