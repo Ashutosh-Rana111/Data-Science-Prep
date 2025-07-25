@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import sys
+import os
 
 model_path = os.path.join(os.path.dirname(__file__), "Heart_disease_model.pkl")
 # Load trained model
